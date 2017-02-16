@@ -9,3 +9,6 @@ This lib contains variaty helpful iOS extension in Swift.
   - `func darkerColorWithFactor(_ factor: CGFloat = default) -> UIColor!`, get darker color.
 
 -----
+### __`UIGestureRecognizer`__ Subclass:
+  - [`TouchDelayGestureRecognizer`](./TouchDelayGestureRecognizer.swift), this gesture recognizer will delay touches to it's view, so if for example some pan gesture recognizes the pan is happening, the other possible gestures (like tap) will not fire.
+  - [`TouchIndicatorGestureRecognizer`](./TouchIndicatorGestureRecognizer.swift), this gesture recognizer will show indicators for every touch, which will follow touch movement. It supports multitouch, and it's possible to show custom indicator view by overriding indicator() func.
