@@ -7,7 +7,11 @@ This lib contains variaty helpful iOS extension in Swift.
   - `class func randomVividColor() -> UIColor!`, generate random color with calibration.
   - `func lighterColorWithFactor(_ factor: CGFloat = default) -> UIColor!`, get lighter color.
   - `func darkerColorWithFactor(_ factor: CGFloat = default) -> UIColor!`, get darker color.
+-----
 
+### [__`UIImage`__](./AExtUIImage.swift):
+  - `convenience init(view: UIView)`, init `UIImage` with a `UIView` instance. (Snapshot functionality.)
+  
 -----
 ### __`UIGestureRecognizer`__ Subclass:
   - [`TouchDelayGestureRecognizer`](./TouchDelayGestureRecognizer.swift), this gesture recognizer will delay touches to it's view, so if for example some pan gesture recognizes the pan is happening, the other possible gestures (like tap) will not fire.
